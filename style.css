@@ -191,11 +191,13 @@ main {
     background-color: #19202D;
 }
 
-@media (min-width: 37.5rem) {
+@media (min-width: 55.125) {
     .testimonials-holder {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 1.875rem;
+        padding-bottom: 0;
+        padding-top: 0;
     }
 
     .testimonial:nth-child(1) {
