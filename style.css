@@ -84,7 +84,6 @@ body {
 main {
     display: grid;
     min-height: 100vh;
-    place-items: center;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -191,7 +190,11 @@ main {
     background-color: #19202D;
 }
 
-@media (min-width: 55.125rem) {
+@media (min-width: 66.68rem) {
+    main {
+        place-items: center;
+    }
+    
     .testimonials-holder {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
